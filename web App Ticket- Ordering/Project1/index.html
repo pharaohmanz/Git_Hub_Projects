@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modern Web Development</title>
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+
+  </head>
+  
+  <body   class="container"  ng-app>
+    <div>Hello -  Ken Modern Web Development</div>
+    
+   <form action="form-test.php" method = 'post'>
+         
+    <div class="row">
+      <div class="form-group col-sm-6">
+          <label>Buyer Name</label>
+          <input type="text" name="buyer_name" class="form-control">
+        </div>
+        <div class="form-group col-sm-6">
+          <label>Buyer Email</label>
+          <input type="text" name="buyer_email" class="form-control">
+        </div>
+       </div>
+           
+         <div class="row">      
+       <div class="form-group col-sm-6">
+       <label> Seating Section </label>
+       <select name='seating_section' class="form-control">
+           <option> Premium</option>
+           <option>Plus</option>
+           <option>Standard</option>
+       </select>
+       </div>
+           
+       <div class="form-group col-sm-6">
+       <label> Number of Seats </label>
+       <input type ='text' name='num_seats'class="form-control">
+       </div>
+         </div>      
+           
+         <div class="form-group">
+              <button  type ='submit'class="btn btn-primary">Submit </button>
+              <button type ='reset'class="btn btn-primary"> Reset</button>
+              
+       </div>
+          
+       </form>
+ 
+  </body>
+</html>
